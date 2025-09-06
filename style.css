@@ -12,7 +12,7 @@
     --red:#339ade;
     --white: #fff;
     --dark: ##1e1c2a;
-    --blue: #2A36B4;
+    --blue: #14349A;
 }
 body{
     color:var(--dark);
