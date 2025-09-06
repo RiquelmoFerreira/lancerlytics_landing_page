@@ -16,7 +16,7 @@
 }
 body{
     color:var(--dark);
-    background: var(--blue);
+    background: var(blue);
 }
 .navigation{
     display: flex;
@@ -96,8 +96,8 @@ body{
 }
 .home-btn{
     padding: 15px 45px;
-    background: var(--red);
-    color: var(--white);
+    background: var(--white);
+    color: var(--blue);
     border-radius: 10px;
     font-weight: 700;
     transition: all 0.5s;
