@@ -112,15 +112,12 @@ body{
     width: 100%;
 }
 @media (max-width:785px){
-    /* Ajustes do Cabeçalho */
     .navigation{
         padding: 18px 20px;
     }
     .menu{
-        display: block; /* Garante que o ícone esteja visível */
+        display: block;
     }
-
-    /* Animação das Barras (Seu código original) */
     .menu.ativo .bar:nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
@@ -130,46 +127,41 @@ body{
     .menu.ativo .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
-
-    /* Layout do Menu de Tela Cheia (Baseado na Página de Projetos) */
     .nav-menu.ativo{
-        right: 0; /* Move o menu para dentro da tela */
+        right: 0;
     }
     .nav-menu{
         position: fixed;
         right: -100%;
         top: 70px;
         width: 100%;
-        /* Ocupa a altura total da tela para o efeito de tela cheia */
-        height: calc(100vh - 70px); 
+        height: 100%;
         flex-direction: column;
-        
-        /* Ajuste do layout interno para alinhar ao topo */
-        justify-content: flex-start;
-        padding-top: 80px; /* Espaço para afastar os links do topo */
-        
         background: linear-gradient(135deg, var(--blue), var(--blue-light));
-        transition: right 0.5s;
-        z-index: 999;
-        
-        /* Adaptação para a lista, se você usa ul/li diretamente */
-        display: flex; /* Garante que flex-direction: column funcione */
-        gap: 0; /* Remove o gap horizontal do desktop */
+        gap: -10px;
     }
-    
-    /* Regras para os Itens e Links */
     .nav-item{
-        margin: 16px 0; /* Espaçamento vertical entre itens */
+        margin: 16px 0;
+    }
+    .home{
+        padding: 100px 2%;
+        flex-direction: column;
         text-align: center;
+        overflow: scroll;
+        gap: 3rem;
     }
-    .navigation ul li a{
-        /* Fontes maiores (como em 'Projetos') para mobile */
-        font-size: 1.5rem;
-        padding: 15px 0;
-        display: block;
+    .home .text-h4{
+        font: 15px;
     }
-
-    /* O restante das regras (como .home, .home-text) é específico do seu site principal
-       e deve ser mantido se necessário. */
+    .home .text-h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .home p{
+        font-size: 15px;
+    }
+    .home-img{
+        width: 100%;
+    }
 }
 
