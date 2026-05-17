@@ -10,10 +10,10 @@
 }
 :root{
     --red:#339ade;
-    --white: #fff;
+    --white: #dbba2a;
     --dark: #fff;
-    --blue: #14349A;
-    --blue-light: #2D55CC;
+    --blue: #000000;
+    --blue-light: #0F0F0F;
     --orange: #DE9400;
 }
 body{
