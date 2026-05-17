@@ -11,6 +11,7 @@
 :root{
     --red:#339ade;
     --white: #dbba2a;
+    --branco: #FFFFFF;
     --dark: #fff;
     --blue: #000000;
     --blue-light: #0F0F0F;
@@ -47,7 +48,7 @@ body{
     transition: all 0.5s;
 }
 .navigation ul li a:hover{
-    color: var(--orange)
+    color: var(--branco)
 }
 .navigation i{
     cursor:pointer;
@@ -99,14 +100,14 @@ body{
 }
 .home-btn{
     padding: 15px 45px;
-    background: var(--orange);
-    color: var(--white);
+    background: var(--white);
+    color: var(--branco);
     border-radius: 999px;
     font-weight: 700;
     transition: all 0.5s;
 }
 .home-btn:hover{
-    background: #f5a402;
+    background: #F5CF22;
 }
 .home-img img{
     width: 100%;
